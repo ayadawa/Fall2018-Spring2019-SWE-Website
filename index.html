@@ -12,6 +12,12 @@
 
     <title>SJSU SWE</title>
 
+    <style>
+      .row {
+        margin: auto;
+      }
+    </style>
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -39,14 +45,27 @@
         <link href="css/SWE_Home_Page.css" rel="stylesheet" />
 
         <img src="img/Logo.png" alt="" />
-        <a class="navbar-brand" href="#">Society of Women Engineers </a>
-        <a class="btn btn-SWE" href="#home">Home</a>
-        <a class="btn btn-SWE" href="#">WOW!</a>
+
+        <a class="navbar-brand" href="index.html"
+          >Society of Women Engineers
+        </a>
+
+        <div class="dropdown">
+          <a class="btn btn-SWE" href="#">Events</a>
+          <div class="dropdown-content">
+            <a href="wow.html">WOW</a>
+            <a href="#">Evening</a>
+            <a href="#">Company Tours</a>
+            <a href="#">Socials</a>
+          </div>
+        </div>
+
         <a class="btn btn-SWE" href="#">Join</a>
         <a class="btn btn-SWE" href="#">About</a>
       </div>
+      
     </nav>
-
+<hr style="border: 4px solid rgb(133, 92, 184);" />
     <!-- Masthead -->
     <header class="tower text-white text-center">
       <div class="overlay"></div>
@@ -187,7 +206,7 @@
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <img
                 class="img-fluid rounded-circle mb-3"
-                src="img/Nikki Ravi.jpg"
+                src="img/nikki3.png"
                 alt=""
               />
               <h5>Nikki Ravi</h5>
@@ -235,13 +254,11 @@
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
-          <img src="img/adobe.png" alt="" />
-          <img src="img/box.png" alt="" />
-          <img src="img/citrix.png" alt="" />
-          <img src="img/lockheed.png" alt="" />
-          <img src="img/visa.png" alt="" />
-          <img src="img/cisco-meraki.png" alt="" />
-          <img src="img/cisco.png" alt="" />
+          <div class="imageCenter">
+            <link href="css/SWE_Home_Page.css" rel="stylesheet" />
+            <img src="img/Sponsors 2018-19.jpg" alt="" />
+          </div>
+
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
             <form>
               <div class="form-row"></div>
