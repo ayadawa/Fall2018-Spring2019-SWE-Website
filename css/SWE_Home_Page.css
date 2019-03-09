@@ -91,3 +91,19 @@
   margin: auto;
   padding-bottom: 5em;
 }
+
+.joinImage {
+  position: center;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  margin: auto;
+}
+.S,
+.J {
+  background-color: green;
+}
+.SWE {
+  background-color: purple;
+}
