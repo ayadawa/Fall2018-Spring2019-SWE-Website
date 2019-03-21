@@ -63,7 +63,7 @@ header.tower h1 {
   opacity: 1;
 }
 .showcase .showcase2-text {
-  background-color: #ffe14c;
+  background-color: #ffffbf;
 }
 
 .img__description {
@@ -92,8 +92,8 @@ header.tower h1 {
 }
 @media (min-width: 768px) {
   .showcase .showcase2-text {
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-top: 16rem;
+    padding-bottom: 16rem;
     text-align: center;
   }
 }
